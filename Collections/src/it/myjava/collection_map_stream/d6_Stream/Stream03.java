@@ -1,7 +1,9 @@
 package it.myjava.collection_map_stream.d6_Stream;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Stream;
 
 public class Stream03 {
     /*
@@ -38,6 +40,15 @@ public class Stream03 {
         //去重
         scores.stream().sorted((s1,s2)->Double.compare(s2,s1)).distinct().forEach(System.out::println);
 
+        //3.映射/加工方法 把流上原来的数据拿出来变成新数据又放到流上去 map(Function f)
+        scores.stream().map(s->"加10分后："+(s+10)).forEach(System.out::println);
+
+        //4.合并流
+        Stream< String> s1= Stream.of("张三","李四","王五");
+        Stream<Integer> s2= Stream.of(1,2,3,4,5);
+
+        Stream<Object> s3 = Stream.concat(s1, s2);
+        s3.forEach(System.out::println);
 
 
     }
