@@ -67,8 +67,8 @@ public class Stream04 {
         System.out.println(Arrays.toString(array));*/
 
         //收集到Map集合 键：名字 值：薪水
-        Stream<Teacher> sorted = list.stream();
-        Map<String, Integer> map = sorted.collect(Collectors.toMap(Teacher::getName, Teacher::getSalary));
+        Stream<Teacher>  stream = list.stream();
+        Map<String, Integer> map =  stream.collect(Collectors.toMap(Teacher::getName, Teacher::getSalary));
 
 
     }
