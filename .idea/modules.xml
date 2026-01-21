@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Collections/Collections.iml" filepath="$PROJECT_DIR$/Collections/Collections.iml" />
-      <module fileurl="file://$PROJECT_DIR$/File_IO/File_IO.iml" filepath="$PROJECT_DIR$/File_IO/File_IO.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaLearing.iml" filepath="$PROJECT_DIR$/JavaLearing.iml" />
-      <module fileurl="file://$PROJECT_DIR$/String/String.iml" filepath="$PROJECT_DIR$/String/String.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javapro/javapro.iml" filepath="$PROJECT_DIR$/javapro/javapro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/d1-String/d1-String.iml" filepath="$PROJECT_DIR$/d1-String/d1-String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/d2-javapro/d2-javapro.iml" filepath="$PROJECT_DIR$/d2-javapro/d2-javapro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/d3-Collections/d3-Collections.iml" filepath="$PROJECT_DIR$/d3-Collections/d3-Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/d4-File_IO/d4-File_IO.iml" filepath="$PROJECT_DIR$/d4-File_IO/d4-File_IO.iml" />
     </modules>
   </component>
 </project>
