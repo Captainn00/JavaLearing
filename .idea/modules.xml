@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/d2-javapro/d2-javapro.iml" filepath="$PROJECT_DIR$/d2-javapro/d2-javapro.iml" />
       <module fileurl="file://$PROJECT_DIR$/d3-Collections/d3-Collections.iml" filepath="$PROJECT_DIR$/d3-Collections/d3-Collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/d4-File_IO/d4-File_IO.iml" filepath="$PROJECT_DIR$/d4-File_IO/d4-File_IO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/d5-thread/d5-thread.iml" filepath="$PROJECT_DIR$/d5-thread/d5-thread.iml" />
     </modules>
   </component>
 </project>
